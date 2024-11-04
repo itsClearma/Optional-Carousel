@@ -1,0 +1,189 @@
+body{
+    background-color: snow;
+}
+
+/* header sytles */
+
+header {
+    background-color: #FF8869;
+    padding: 10px 0px 10px 0px;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tohoma, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.push{
+    margin-left: auto;
+}
+
+/* section one flex grow and shrink */
+
+.section-one {
+    background-color: lemonchiffon;  
+}
+
+.flexgrow-container {
+    display: flex;
+}
+
+.box1 {
+    background-color: #6F2F2D;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+.box2 {
+    background-color: #7F3F3D;
+    height: 200px;
+    flex: 2 1 auto;
+}
+
+.box3 {
+    background-color: #8F4F4D;
+    height: 200px;
+    flex: 1 1 auto;
+}
+
+/* section 2 center item */
+
+.section-two {
+    background-color: #D45B57;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* section 3 youtube video */
+
+.section-three {
+    background-color: #FF6E69;
+    height: 800px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+iframe { 
+    padding: 5px;
+}
+
+
+/* section 4 embed audio */
+
+.section-four {
+    background-color: #B34D49;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+/* section 5 media items */
+
+.section-five {
+    background-color: #913E3B;
+}
+
+.media-container{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 15px 25px 15px 15px;
+}
+
+.media-container .mediacontent{
+    flex: 1;
+    padding: 10px;
+}
+
+.media-content{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: navy;
+    font-size: 20px;
+}
+
+button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    padding: 5px;
+    margin: 0px 3px;
+    border: 3px double #FF8869;
+    border-radius: 1px;
+    background-color: whitesmoke;
+    margin: 2px;
+    transition-duration: .4s;
+}
+
+button:hover{
+    background-color: #FF8869;
+    border: 3px double whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0px 5px #C96C53;
+    transform: translateY(-4px);
+}
+
+button:active{
+    background-color: #FF8869;
+    border: 3px double whitesmoke;
+    border-radius: 25px;
+    box-shadow: 0px 0px #C96C53;
+    transform: translateY(4px);
+}
+
+footer{
+    background-color: #6F2F2D;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-small;
+    color: lavenderblush;
+    padding: 10px 0px;
+}
+
+/* Button Page Exclusives */
+.button-one-section{
+    background-color:lemonchiffon;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-top-img{
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px darkgoldenrod;
+    width: 70%;
+}
+
+.knewave {
+    font-family: "Knewave", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.flegrei{
+    font-family: "flegrei", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
